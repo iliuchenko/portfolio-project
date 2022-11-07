@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #B1B2FF;
+  --secondary-color: #EEF1FF;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -116,6 +116,30 @@ p {
   max-height: 40px;
 }
 
+.img-content {
+  max-height: 600px;
+}
+
+.contact-style {
+  text-decoration: none;
+  color: #7868E6;
+}
+
+.contact-style:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
+}
+
+.text-link {
+  text-decoration: none;
+  color: black;
+}
+
+.text-link:hover {
+  color: black;
+  opacity: 60%;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -209,6 +233,9 @@ footer .contact-box {
   }
   nav a {
     font-size: 12px;
+  }
+  .img-content {
+    max-height: 400px;
   }
 }
 
